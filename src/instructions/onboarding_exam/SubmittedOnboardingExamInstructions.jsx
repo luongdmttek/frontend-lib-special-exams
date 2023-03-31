@@ -22,7 +22,7 @@ const SubmittedOnboardingExamInstructions = () => {
       </h3>
       <p>
         <FormattedMessage
-          id="exam.SubmittedProctoredExamInstructions.text1"
+          id="exam.SubmittedOnboardingExamInstructions.text1"
           defaultMessage={'If you do not have an onboarding profile with the system, Verificient '
           + 'will review your submission and create an onboarding profile to grant you access to '
           + 'proctored exams. Onboarding profile review can take 2+ business days.'}
@@ -30,7 +30,7 @@ const SubmittedOnboardingExamInstructions = () => {
       </p>
       <p>
         <FormattedMessage
-          id="exam.SubmittedProctoredExamInstructions.text2"
+          id="exam.SubmittedOnboardingExamInstructions.text2"
           defaultMessage={'Once your profile has been reviewed, you will receive an email with '
           + 'review results. The email will come from '}
         />
@@ -38,14 +38,14 @@ const SubmittedOnboardingExamInstructions = () => {
           {learnerNotificationFromEmail}
         </MailtoLink>
         <FormattedMessage
-          id="exam.SubmittedProctoredExamInstructions.text3"
+          id="exam.SubmittedOnboardingExamInstructions.text3"
           defaultMessage={', so make sure this email has been added '
           + 'to your inbox filter.'}
         />
       </p>
       <p>
         <FormattedMessage
-          id="exam.SubmittedProctoredExamInstructions.text4"
+          id="exam.SubmittedOnboardingExamInstructions.text4"
           defaultMessage={'If you do not have an onboarding profile with the system, Verificient '
           + 'will review your submission and create an onboarding profile to grant you access to '
           + 'proctored exams. Onboarding profile review can take 2+ business days.'}
@@ -53,7 +53,7 @@ const SubmittedOnboardingExamInstructions = () => {
       </p>
       <p>
         <FormattedMessage
-          id="exam.SubmittedProctoredExamInstructions.text5"
+          id="exam.SubmittedOnboardingExamInstructions.text5"
           defaultMessage={'If you already have an onboarding profile approved through another course, '
           + 'this submission will not be reviewed. You may retry this exam at any time to validate that '
           + 'your setup still meets the requirements for proctoring.'}
@@ -62,7 +62,7 @@ const SubmittedOnboardingExamInstructions = () => {
       <p>
         <Button variant="link" onClick={confirm}>
           <FormattedMessage
-            id="exam.SubmittedProctoredExamInstructions.confirm"
+            id="exam.SubmittedOnboardingExamInstructions.confirm"
             defaultMessage="I understand and want to reset this onboarding exam."
           />
         </Button>
@@ -80,14 +80,14 @@ const SubmittedOnboardingExamInstructions = () => {
       </Button>
       <p className="mt-4">
         <FormattedMessage
-          id="exam.SubmittedProctoredExamInstructions.text6"
+          id="exam.SubmittedOnboardingExamInstructions.text6"
           defaultMessage="Please contact "
         />
         <MailtoLink to={integrationSpecificEmail}>
           {integrationSpecificEmail}
         </MailtoLink>
         <FormattedMessage
-          id="exam.SubmittedProctoredExamInstructions.text7"
+          id="exam.SubmittedOnboardingExamInstructions.text7"
           defaultMessage=" if you have questions."
         />
       </p>
