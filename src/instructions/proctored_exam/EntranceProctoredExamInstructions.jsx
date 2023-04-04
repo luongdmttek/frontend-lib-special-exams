@@ -57,7 +57,7 @@ const EntranceProctoredExamInstructions = ({ skipProctoredExam }) => {
           onClick={createProctoredExamAttempt}
         >
           <FormattedMessage
-            id="exam.startExamInstructions.startExamButtonText"
+            id="exam.EntranceProctoredExamInstructions.startExamButtonText"
             defaultMessage="Continue to my proctored exam."
           />
         </Button>

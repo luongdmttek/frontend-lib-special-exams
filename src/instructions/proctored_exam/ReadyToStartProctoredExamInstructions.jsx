@@ -124,7 +124,7 @@ const ReadyToStartProctoredExamInstructions = () => {
         >
           { beginExamClicked && <Spinner data-testid="exam-loading-spinner" animation="border" /> }
           <FormattedMessage
-            id="exam.startExamInstructions.startExamButtonText"
+            id="exam.ReadyToStartProctoredExamInstructions.startExamButtonText"
             defaultMessage="Start exam"
           />
         </Button>

@@ -11,13 +11,13 @@ const SubmittedPracticeExamInstructions = () => {
     <div>
       <h3 className="h3" data-testid="exam-instructions-title">
         <FormattedMessage
-          id="exam.SubmittedOnboardingExamInstructions.title"
+          id="exam.SubmittedPracticeExamInstructions.title"
           defaultMessage="You have submitted this practice proctored exam"
         />
       </h3>
       <p>
         <FormattedMessage
-          id="exam.SubmittedProctoredExamInstructions.text1"
+          id="exam.SubmittedPracticeExamInstructions.text1"
           defaultMessage={'Practice exams do not affect your grade. You have '
           + 'completed this practice exam and can continue with your course work.'}
         />
